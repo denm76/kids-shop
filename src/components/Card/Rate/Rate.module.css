@@ -1,0 +1,20 @@
+.rating {
+  display: flex;
+  position: relative;
+}
+
+.rating__yellowstars {
+  height: 12px;
+  background: url("../../../assets/yellowstar.png");
+  background-repeat: no-repeat;
+  z-index: 50;
+  width:50%;
+}
+
+.rating__greystars {
+  position: absolute;
+  width: 75px;
+  height: 12px;
+  background: url("../../../assets/greystar.png");
+  background-repeat: no-repeat;
+}

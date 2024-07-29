@@ -1,0 +1,12 @@
+body {
+  background: var(--brand-light-3);
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.active {
+  color: var(--brand);
+  border-bottom: 3px solid var(--brand);
+  padding-bottom: 8px;
+}
