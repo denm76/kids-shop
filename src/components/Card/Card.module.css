@@ -1,0 +1,51 @@
+.card {
+  border-radius: 16px;
+  background: var(--white);
+  padding: 5px;
+  min-height: 420px;
+}
+
+.card__image {
+  width: 250px;
+  height: 250px;
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card__description {
+  padding: 12px 16px 16px 16px;
+  text-align: left;
+}
+
+.card__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.card__price {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 109%;
+  margin-top: 16px;
+  color: var(--black);
+}
+
+.card__price:after {
+  content: " \20BD";
+}
+
+._textoverflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

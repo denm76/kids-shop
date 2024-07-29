@@ -1,0 +1,14 @@
+:root {
+	--black: #172029;
+	--white: #fff;
+	--brand: #0073e6;
+	--brand-light-1: #99c7f5;
+	--brand-light-2: #e6f1fc;
+	--brand-light-3: #f2f6fa;
+	--gray: #808080;
+	--gray-light-1: #f2f2f2;
+	--accent: #fabc22;
+	--focus: #ed2c19;
+  --font-family: "Nunito", sans-serif;
+  --second-family: "Circe Rounded DM", sans-serif;
+}
